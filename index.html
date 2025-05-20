@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Leonardo Possan | Portfólio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="lp.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <aside class="sidebar " data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="eu.png" alt="avatar" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Richard Hanrick">Leonardo Possan</h1>
+                    <p class="title">Desenvolvedor FullStack ➡️ Java</p>
+                </div>
+
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">E-Mail</p>
+
+                            <a href="possandesenvolvimento@gmail.com"
+                                class="contact-link">possamdesenvolvimento@gmail.com</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Telefone</p>
+
+                            <a href="https://wa.me/5511964801185" class="contact-link">+55 (11) 96480-1185</a>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Aniversário</p>
+
+                            <time datetime="1982-06-23">10 de Março de 1992</time>
+                        </div>
+                    </li>
+
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Localização</p>
+
+                            <address>São Paulo, SP, Brasil</address>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://github.com/1992-leonardo" target="_blank" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/leonardo-possan-da-silva/" target="_blank"
+                            class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/leopossamweb/?next=%2F" target="_blank" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>Sobre</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resumo</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contato</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="sobre">
+                <header>
+                    <h2 class="h2 article-title">Sobre mim</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>Olá! Sou Leonardo Possan, desenvolvedor de software apaixonado por tecnologia. <br>
+                        Tenho experiência no desenvolvimento de projetos reais, utilizando tecnologias como Java, Spring
+                        Boot, Spring Security, Spring Data JPA, Docker, MySQL,
+                        PostgreSQL, HTML, CSS, JavaScript e soluções em Cloud. <br>
+                        Sou graduado em Análise e Desenvolvimento de Sistemas pela Uninter e me dedico a criar soluções
+                        inovadoras que resolvem problemas e geram valor para as
+                        organizações.</p>
+                </section>
+
+                <section class="service">
+                    <h3 class="h3 service-title">O que estou fazendo</h3>
+
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="img-01.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Desenvolvimento Java</h4>
+                                <p class="service-item-text">Criação de aplicações Java robustas e escaláveis com
+                                    alta qualidade profissional.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="img-02.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Sistemas Corporativos</h4>
+                                <p class="service-item-text">Desenvolvimento de sistemas empresariais personalizados
+                                    utilizando as mais recentes tecnologias Java.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="img-03.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Integração de APIs</h4>
+                                <p class="service-item-text">Integração eficiente de APIs e serviços para aprimorar
+                                    e expandir suas aplicações Java.</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="img-04.png" alt="icon" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Manutenção e Suporte</h4>
+                                <p class="service-item-text">Serviços contínuos de manutenção e suporte para
+                                    garantir o desempenho e a segurança das suas aplicações Java.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <div class="modal-container " data-modal-container>
+                    <div class="overlay " data-overlay></div>
+
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn><ion-icon
+                                name="close-outline"></ion-icon></button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="https://i.postimg.cc/zGDHfn3G/avatar-1.png" alt="Daniel Lewis" width="80"
+                                    data-modal-img>
+                            </figure>
+
+                            <img src="https://i.postimg.cc/mZ00RwX7/icon-quote.png" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+                            <h4 class="h3 modal-title" data-modal-title>Daniel Lewis</h4>
+                            <time datetime="2023-06-14">14 June, 2023</time>
+
+                            <div class="modal-text" data-modal-text>
+                                <p>Richard was hired to create a corporate identity. It's modern, clean and with a
+                                    beautiful design that got a lot of praises from colleagues and visitors. We were
+                                    very pleased with the work done. He has a lot of experience and is very
+                                    concerned about the needs of client.</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Empresas que Trabalhei</h3>
+
+                    <ul class="clients-list has-scrollbar">
+                        <li class="clients-item">
+                            <a href="#"><img src="ptandre.PNG" alt="logo" style="border-radius: 8px;"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="wrapper-logo.png" alt="logo"></a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#"><img src="logo-orizon.png" alt="logo" style="border-radius: 8px;"></a>
+                        </li>
+
+
+                    </ul>
+                </section>
+
+            </article>
+
+            <article class="resumo " data-page="resumo">
+                <header>
+                    <h2 class="h2 article-title">Sobre Mim</h2>
+                </header>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">Formação Acadêmica</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Uninter</h4>
+                            <span>jun de 2022 - dez de 2025</span>
+                            <p class="timeline-text">Ensino Superior em Análise e Desenvolvimento de Sistemas.
+                                Competências
+                                desenvolvidas incluem: Java, Spring Boot, Spring Security, Spring Data JPA, Docker,
+                                MySQL, PostgreSQL, soluções em Cloud, JavaScript, CSS, HTML5, Defesa Cibernética,
+                                Inteligência de Ameaças Cibernéticas, Trabalho em equipe, Resolução de problemas e
+                                Gestão de Infraestrutura de TI.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">ALURA</h4>
+                            <span>set de 2022</span>
+                            <p class="timeline-text">Curso Lógica de Programação.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">UDEMY</h4>
+                            <span>set de 2024</span>
+                            <p class="timeline-text">Curso Java Completo e Atualizado do Iniciante ao Avançado.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">UDEMY</h4>
+                            <span>jun de 2024</span>
+                            <p class="timeline-text">Crie 15 Aplicativos Completos com Android Studio e Java</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">UDEMY</h4>
+                            <span>fev de 2024 - mar de 2024</span>
+                            <p class="timeline-text">Desenvolvimento Android Completo - Crie 18 Apps.</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">UDEMY</h4>
+                            <span>jun de 2024</span>
+                            <p class="timeline-text">JavaServer Faces com PrimeFaces, CDI e WildFly - Volume 1</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">UDEMY</h4>
+                            <span>jun de 2024</span>
+                            <p class="timeline-text">Curso Web Frontend Fundamentos HTML CSS JS + de 10 Projetos</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">UDEMY</h4>
+                            <span>jun de 2024</span>
+                            <p class="timeline-text">O curso completo de Banco de Dados e SQL, sem mistérios!</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">UDEMY</h4>
+                            <span>jun de 2024</span>
+                            <p class="timeline-text">Integração contínua com testes, utilizando Jenkins</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">UDEMY</h4>
+                            <span>jun de 2024</span>
+                            <p class="timeline-text">Linux para Desenvolvedores (c/ terminal, Shell, Apache e +)</p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">UDEMY</h4>
+                            <span>jun de 2024</span>
+                            <p class="timeline-text">Docker para Desenvolvedores (com Docker Swarm e Kubernetes)</p>
+                        </li>
+                    </ol>
+                </section>
+
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">EXPERIÊNCIAS</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Analista de Sistemas - Orizon</h4>
+                            <span>set de 2022 - set de 2024</span>
+                            <p class="timeline-text">
+                                Especializado em Java, Spring Boot, APIs RESTful e Spring Security. Experiência em
+                                integração de bancos de dados e desenvolvimento frontend com HTML, CSS e JavaScript,
+                                garantindo soluções completas e integradas.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Desenvolvedor de Software - Java</h4>
+                            <span>set de 2024 - mar de 2025</span>
+                            <p class="timeline-text">
+                                Experiência em análise e suporte operacional, incluindo liderança de equipe e gestão
+                                de processos administrativos.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Desenvolvedor Freelancer – Projeto E-commerce</h4>
+                            <span>jan de 2024 – mar de 2024</span>
+                            <p class="timeline-text">
+                                Desenvolvimento de uma aplicação para integrar um site de e-commerce a um aplicativo
+                                móvel, garantindo responsividade, performance e uma boa experiência do usuário.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Desenvolvedor Freelancer – Site para Escritório de
+                                Advocacia</h4>
+                            <span>nov de 2023 – dez de 2023</span>
+                            <p class="timeline-text">
+                                Criação de página institucional utilizando HTML, CSS e JavaScript para um escritório de
+                                advocacia, com foco em identidade visual, acessibilidade e estruturação clara das
+                                informações.
+                            </p>
+                        </li>
+
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Desenvolvedor Freelancer – Sistema de Controle de Estoque
+                            </h4>
+                            <span>set de 2023 – out de 2023</span>
+                            <p class="timeline-text">
+                                Desenvolvimento de um sistema de controle de estoque para um pet shop, com
+                                funcionalidades de cadastro, movimentação e acompanhamento de produtos, visando
+                                automatizar processos manuais.
+                            </p>
+                        </li>
+
+                    </ol>
+                </section>
+
+                <section class="skill">
+                    <h3 class="h3 skills-title">Minhas Habilidades</h3>
+
+                    <ul class="skills-list content-card">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Desenvolvimento Java</h5>
+                                <data value="90">90%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 90%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Spring Framework (Boot, Security, Data JPA)</h5>
+                                <data value="85">85%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 85%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Banco de Dados (MySQL, PostgreSQL)</h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 80%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Docker e CI/CD</h5>
+                                <data value="75">75%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 75%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Desenvolvimento Web (HTML, CSS, JS)</h5>
+                                <data value="60">60%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </li>
+
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Salesforce e SAP ERP</h5>
+                                <data value="70">70%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" style="width: 70%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+
+            </article>
+
+            <article class="portfolio " data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Design</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+                    </ul>
+
+                    <div class="filter-select-box">
+                        <button class="filter-select " data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Design</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                        </ul>
+                    </div>
+
+                    <ul class="project-list">
+                        <!-- Web Design -->
+                        <!-- E-commerce -->
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="e-commerce.png" alt="e-commerce" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">E-commerce</h3>
+                                <p class="project-category">
+                                    Loja virtual desenvolvida por mim com foco em experiência do usuário, design
+                                    responsivo e integração com banco de dados. O sistema permite cadastro de produtos,
+                                    gerenciamento de pedidos e login de usuários. Utilizei HTML, CSS, JavaScript, Java e
+                                    MySQL para entregar uma solução moderna e funcional.
+                                </p>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <!-- Blog Pessoal -->
+                        <li class="project-item active" data-filter-item data-category="web design">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="blog.jpg" alt="blog" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Blog Pessoal</h3>
+                                <p class="project-category">
+                                    Blog pessoal feito para compartilhamento de conteúdos, com sistema de posts,
+                                    comentários e login. O layout é leve e funcional, garantindo boa navegação.
+                                    Desenvolvido com HTML, CSS, JavaScript, Java e MySQL.
+                                </p>
+                                <p class="project-category">Web Design</p>
+                            </a>
+                        </li>
+
+                        <!-- App de Mensagem -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="app-mensagem.png" alt="mensagem" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">App de Mensagem</h3>
+                                <p class="project-category">
+                                    Aplicativo de mensagens com autenticação de usuários, envio em tempo real e
+                                    histórico de conversas. Desenvolvido utilizando HTML, CSS, JavaScript no frontend e
+                                    Java com MySQL no backend.
+                                </p>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <!-- Jogo da Adivinhação -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="jogo-adivinhacao.png" alt="adivinhacao" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Jogo da Adivinhação</h3>
+                                <p class="project-category">
+                                    Jogo interativo onde o usuário deve adivinhar o número gerado. Desenvolvido com
+                                    HTML, CSS e JavaScript, integrado a um sistema Java que registra pontuações no banco
+                                    de dados MySQL.
+                                </p>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <!-- Jogo da Cobrinha -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="jogo-cobrinha.jpg" alt="cobrinha" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Jogo da Cobrinha</h3>
+                                <p class="project-category">
+                                    Recriação do clássico jogo da cobrinha com pontuação e níveis. Feito com HTML, CSS e
+                                    JavaScript. Pontuações são armazenadas em banco de dados via backend em Java e
+                                    MySQL.
+                                </p>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <!-- Jogo da Velha -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="jogo-velha.png" alt="velha" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Jogo da Velha</h3>
+                                <p class="project-category">
+                                    Jogo da velha com multiplayer local. Desenvolvido como projeto de lógica com HTML,
+                                    CSS e JavaScript, podendo registrar resultados via Java e banco MySQL.
+                                </p>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <!-- Jogo da Forca -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="jogo-forca.png" alt="forca" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Jogo da Forca</h3>
+                                <p class="project-category">
+                                    Um jogo da forca com categorias e níveis de dificuldade. Desenvolvido com HTML, CSS
+                                    e JavaScript, com controle de tentativas e ranking armazenado no banco de dados
+                                    usando Java e MySQL.
+                                </p>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <!-- Quiz -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="jogo-quiz.jpg" alt="quiz" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Quiz</h3>
+                                <p class="project-category">
+                                    Jogo de perguntas e respostas com feedback imediato e contagem de pontos. Totalmente
+                                    responsivo e integrado com backend Java para armazenar histórico dos usuários no
+                                    MySQL.
+                                </p>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <!-- Gestão Financeira -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="gestao-financeira.jpg" alt="financeiro" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Gestão Financeira</h3>
+                                <p class="project-category">
+                                    Sistema de controle financeiro com cadastro de despesas, receitas e geração de
+                                    relatórios. Desenvolvido com Java, HTML, CSS, JavaScript e banco de dados MySQL.
+                                </p>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                        <!-- Controle de Estoque -->
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="controle-estoque.jpg" alt="estoque" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Controle de Estoque</h3>
+                                <p class="project-category">
+                                    Aplicação para gerenciamento de estoque com entrada e saída de produtos, controle de
+                                    níveis mínimos e relatórios. Desenvolvido com HTML, CSS, JavaScript, Java e MySQL.
+                                </p>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </section>
+
+            </article>
+
+            <article class="contact " data-page="contato">
+                <header>
+                    <h2 class="h2 article-title">Contato</h2>
+                </header>
+
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.603290116243!2d-46.936519624979386!3d-23.549546761016205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf068dae365b97%3A0x2d70c3087b39d2f7!2sR.%20Francisco%20de%20Almeida%2C%20179%20-%20Vila%20Aurora%2C%20Itapevi%20-%20SP%2C%2006657-130!5e0!3m2!1spt-BR!2sbr!4v1716227659061!5m2!1spt-BR!2sbr"
+                            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </figure>
+                </section>
+
+
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Formulário de contato</h3>
+
+                    <form id="contactForm" class="form">
+                        <div class="input-wrapper">
+                            <input type="text" id="fullname" name="fullname" class="form-input"
+                                placeholder="Nome completo" required>
+                            <input type="email" id="email" name="email" class="form-input"
+                                placeholder="Endereço de email" required>
+                        </div>
+
+                        <textarea id="message" name="message" class="form-input" placeholder="Sua mensagem"
+                            required></textarea>
+
+                        <button class="form-btn" type="button" id="sendButton">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Enviar mensagem</span>
+                        </button>
+                    </form>
+                </section>
+
+                <script>
+                    document.getElementById('sendButton').addEventListener('click', function () {
+                        const fullname = document.getElementById('fullname').value;
+                        const email = document.getElementById('email').value;
+                        const message = document.getElementById('message').value;
+
+                        if (fullname && email && message) {
+                            const whatsappNumber = '5511964801185'; // Número do WhatsApp do destinatário
+                            const encodedMessage = `Olá, eu vim pelo portfólio e gostaria de conhecer seus serviços.\n\n` +
+                                `Nome: ${fullname}\nEmail: ${email}\nMensagem: ${message}`;
+
+                            const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(encodedMessage)}`;
+                            window.open(whatsappURL, '_blank');
+                        } else {
+                            alert('Por favor, preencha todos os campos antes de enviar.');
+                        }
+                    });
+                </script>
+
+            </article>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            
+            <img id="modal-img" src="" alt="Imagem do projeto" />
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<!-- partial -->
+
+
+
